@@ -1,0 +1,21 @@
+# ===================================================================
+# Base
+# ===================================================================
+
+server:
+  port: 8182
+
+spring:
+  application:
+    name: 'Car Application'
+datasource:
+  username: car-service
+  password: carservice
+  maxpoolsize: 3
+  url: jdbc:postgresql://localhost:5432/car-service
+
+logging:
+  level:
+    org:
+      springframework:
+        transaction: TRACE

@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  car_service_postgresql:
+    image: postgres
+    hostname: postgresql
+    environment:
+      - POSTGRES_DB=car-service
+      - POSTGRES_USER=car-service
+      - POSTGRES_PASSWORD=carservice
+    ports:
+      - "5432:5432"

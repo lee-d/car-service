@@ -1,0 +1,5 @@
+datasource:
+  username: mytest
+  password: mytest
+  maxpoolsize: 3
+  url: jdbc:postgresql://localhost:5432/mytest
